@@ -1,4 +1,7 @@
 
+#main-navigation {
+    margin-bottom: 20px;
+}
 #main-navigation-inside { 
     border-top: 2px dashed #000000; 
     border-bottom: 2px dashed #000000; 
@@ -30,6 +33,24 @@ label {
     margin-left: auto;
     margin-right: auto;
 }
-input[type="submit"] {
-    margin: 0px;
+table tr.even {
+    background-color: #ffffff;
+}
+
+table tr.odd {
+    background-color: #eaf9fd;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+  color: #000000;
+  background-color: #a4d0da;
+  text-decoration: underline;
+}
+a, a:visited { 
+    color: #157d96; 
+    text-decoration: underline;
+}
+
+a:hover { 
+    color: #157d96; 
+    text-shadow: 1px 1px 1px #b5b5b5;
 }
