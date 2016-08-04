@@ -83,6 +83,7 @@ a:hover {
   -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  display: table; 
 }
 .region-sidebar-first .block {
   background-color: #ffffff;
@@ -93,7 +94,15 @@ a:hover {
     width: 100%;
     display: table;
     -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    5px 5px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
     border-radius: 10px
+}
+input[type="submit"] {
+    margin: 20px auto;
+}
+#header-banner-wrapper {
+    background: url(../images/local/sunrise_background1.jpg) center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
