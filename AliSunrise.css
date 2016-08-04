@@ -1,9 +1,6 @@
 
 #main-navigation {
-    margin-bottom: 20px;
-    -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
-    -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
-    box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
+    margin-bottom: 0px;
 }
 #main-navigation-inside { 
     border-top: 2px dashed #000000; 
