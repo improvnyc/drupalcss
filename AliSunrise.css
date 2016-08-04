@@ -1,13 +1,16 @@
 
 #main-navigation {
     margin-bottom: 20px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
+    box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.65);
 }
 #main-navigation-inside { 
     border-top: 2px dashed #000000; 
     border-bottom: 2px dashed #000000; 
     margin: 0 auto; 
     padding: 0; 
-    line-height: 6px;
+    line-height: 20px;
 }
 #block-user-login {
     background: url(../images/local/bg_login.PNG) top left repeat;
@@ -20,7 +23,8 @@
 }
 h2, .h2 {
     margin: 20px 0 10px 10px;
-    color: #000000
+    color: #000000;
+    text-shadow: 2px 2px 2px #b5b5b5;
 }
 label {
     padding: 5px 10px;
@@ -40,10 +44,19 @@ table tr.even {
 table tr.odd {
     background-color: #eaf9fd;
 }
+.btn-default {
+  background: #a4d0da url(http://i392.photobucket.com/albums/pp3/aliquintero/bg_button3_zpsbrqtduuv.png) 50% 50% repeat-x;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
   color: #000000;
-  background-color: #a4d0da;
+  background-position: 50% 70%;
   text-decoration: underline;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
 }
 a, a:visited { 
     color: #157d96; 
@@ -53,4 +66,32 @@ a, a:visited {
 a:hover { 
     color: #157d96; 
     text-shadow: 1px 1px 1px #b5b5b5;
+}
+#main-content {
+  background: #85c4d3;
+  border-top: 4px solid #000000;
+  -webkit-box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#main {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 10px solid #ffffff;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.region-sidebar-first .block {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 10px solid #ffffff;
+}
+.region-sidebar-first {
+    width: 100%;
+    display: table;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 10px
 }
